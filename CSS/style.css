@@ -1,0 +1,93 @@
+:root {
+    --blue: #8bacda;
+    --cyan: #00fff7;
+    --darkBlueMainBG: #0d192b;
+    --darkBlueCardBG: #14253d;
+    --darkBlueline: #2f415b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--darkBlueMainBG);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    min-height: 100vh;
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--darkBlueCardBG);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card > img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+} 
+
+.card h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.card > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--blue);
+    max-width: 300px;
+} 
+
+.info {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.info img {
+    position: relative;
+    top: 2.5px;
+    margin-right: 6px;
+}
+
+.info span:first-child {
+    color: var(--cyan);
+}
+
+.author {
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 1px solid var(--darkBlueline);
+}
+
+.author img {
+    max-width: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.author p {
+    color: var(--blue);
+}
+
+.author span {
+    color: white;
+}
