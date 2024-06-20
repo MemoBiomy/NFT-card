@@ -21,10 +21,6 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
-
-![Design preview](./images/screenshot.png)
-
 ### Links
 
 - Solution URL: [Github repo](https://github.com/MemoBiomy/NFT-card)
